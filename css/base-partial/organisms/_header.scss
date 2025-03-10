@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #F7F4F2;
+    padding: 10px 0;
+    z-index: 2;
+}
+
+@keyframes slideInFromTop{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@-webkit-keyframes slideInFromTop{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.home-page{
+    header{
+        position: relative;
+        background-color: transparent;
+        &.sticky-header{ 
+            position: sticky;
+            background-color: #F7F4F2;
+            // animation: slideInFromTop 0.5s ease-in-out;
+            top: 0;
+            left: 0;
+    
+        }
+    }
+}
