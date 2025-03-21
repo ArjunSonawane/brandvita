@@ -194,7 +194,6 @@ body{
 .lets-talk-hero-banner{
     @extend.about-us-hero-banner;
     &::before{
-        background-color: $defaultColor;
         background-image: url('https://cdn.glitch.global/33ca5bfe-d1bf-448f-bdb2-2df5f485918c/lets-talk-screen-bg.png?v=1733922653441');
         background-repeat: no-repeat;
         background-position: center top;
@@ -202,7 +201,6 @@ body{
         height: 100%;
     }
     @media screen and (min-width: 1024px) {
-        background-color: $defaultColor;
         background-image: url('https://cdn.glitch.global/33ca5bfe-d1bf-448f-bdb2-2df5f485918c/lets-talk-screen-bg.png?v=1733922653441');
         background-repeat: no-repeat;
         background-position: center top;
@@ -215,7 +213,6 @@ body{
 .contact-us-hero-banner{
     @extend.about-us-hero-banner;
     &::before{
-        background-color: $defaultColor;
         background-image: url('https://cdn.glitch.global/33ca5bfe-d1bf-448f-bdb2-2df5f485918c/contact-us.png?v=1733922652762');
         background-repeat: no-repeat;
         background-position: center top;
@@ -223,7 +220,6 @@ body{
         height: 100%;
     }
     @media screen and (min-width: 1024px) {
-        background-color: $defaultColor;
         background-image: url('https://cdn.glitch.global/33ca5bfe-d1bf-448f-bdb2-2df5f485918c/contact-us.png?v=1733922652762');
         background-repeat: no-repeat;
         background-position: center top;
@@ -236,7 +232,6 @@ body{
 .work-hero-banner{
     @extend.about-us-hero-banner;
     &::before{
-        background-color: $defaultColor;
         background-image: url('https://cdn.glitch.global/33ca5bfe-d1bf-448f-bdb2-2df5f485918c/work-bg.png?v=1733926134081');
         background-repeat: no-repeat;
         background-position: center top;
@@ -244,7 +239,6 @@ body{
         height: 100%;
     }
     @media screen and (min-width: 1024px) {
-        background-color: $defaultColor;
         background-image: url('https://cdn.glitch.global/33ca5bfe-d1bf-448f-bdb2-2df5f485918c/work-bg.png?v=1733926134081');
         background-repeat: no-repeat;
         background-position: center top;

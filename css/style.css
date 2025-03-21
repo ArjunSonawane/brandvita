@@ -3128,7 +3128,6 @@ body {
 }
 
 .lets-talk-hero-banner::before {
-  background-color: #000000;
   background-image: url("https://cdn.glitch.global/33ca5bfe-d1bf-448f-bdb2-2df5f485918c/lets-talk-screen-bg.png?v=1733922653441");
   background-repeat: no-repeat;
   background-position: center top;
@@ -3137,7 +3136,6 @@ body {
 }
 @media screen and (min-width: 1024px) {
   .lets-talk-hero-banner {
-    background-color: #000000;
     background-image: url("https://cdn.glitch.global/33ca5bfe-d1bf-448f-bdb2-2df5f485918c/lets-talk-screen-bg.png?v=1733922653441");
     background-repeat: no-repeat;
     background-position: center top;
@@ -3149,7 +3147,6 @@ body {
 }
 
 .contact-us-hero-banner::before {
-  background-color: #000000;
   background-image: url("https://cdn.glitch.global/33ca5bfe-d1bf-448f-bdb2-2df5f485918c/contact-us.png?v=1733922652762");
   background-repeat: no-repeat;
   background-position: center top;
@@ -3158,7 +3155,6 @@ body {
 }
 @media screen and (min-width: 1024px) {
   .contact-us-hero-banner {
-    background-color: #000000;
     background-image: url("https://cdn.glitch.global/33ca5bfe-d1bf-448f-bdb2-2df5f485918c/contact-us.png?v=1733922652762");
     background-repeat: no-repeat;
     background-position: center top;
@@ -3170,7 +3166,6 @@ body {
 }
 
 .work-hero-banner::before {
-  background-color: #000000;
   background-image: url("https://cdn.glitch.global/33ca5bfe-d1bf-448f-bdb2-2df5f485918c/work-bg.png?v=1733926134081");
   background-repeat: no-repeat;
   background-position: center top;
@@ -3179,7 +3174,6 @@ body {
 }
 @media screen and (min-width: 1024px) {
   .work-hero-banner {
-    background-color: #000000;
     background-image: url("https://cdn.glitch.global/33ca5bfe-d1bf-448f-bdb2-2df5f485918c/work-bg.png?v=1733926134081");
     background-repeat: no-repeat;
     background-position: center top;
