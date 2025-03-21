@@ -3,13 +3,13 @@
     flex-direction: column;
     position: absolute;
     width: 100%;
-    top: 80px;
+    top: 72px;
     justify-content: flex-start;
     align-items: flex-start;
     background-color: #fff;
     left: 0;
     gap: 10px;
-    padding: 0 20px 20px;
+    padding: 20px;
     opacity: 0; 
     visibility: hidden; 
     transition: opacity 0.5s ease, visibility 0.5s ease; 

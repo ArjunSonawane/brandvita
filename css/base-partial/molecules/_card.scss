@@ -236,7 +236,7 @@
         font-weight: 700 !important;
         font-size: 18px !important;
         line-height: 24px;
-        color: #28264D;
+        color: #000;
         margin-bottom: 20px;
         
     }
@@ -245,7 +245,7 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-        color: #69778C;
+        color: #000;
         margin-bottom: 20px;
     }
     .author-name{
@@ -260,7 +260,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
-        color: #69778C;
+        color: #000;
     }
 }
 
@@ -354,7 +354,11 @@
     gap: 30px;
     background: #F7F4F2;
     backdrop-filter: blur(22px);
-    border-radius: 8px;
+    border-radius: 30px;
+    .sm-custom-heading{
+        font-size: 22px !important;
+        line-height: 28px;
+    }
 }
 
 .work-card{
@@ -372,8 +376,10 @@
     img{
         display: block;
         margin-bottom: 10px;
+        border-radius: 30px;
         @media screen and (min-width: 1024px) {
-            margin-bottom: 30px;
+            
+            margin-bottom: 20px;
         }
     }
 }

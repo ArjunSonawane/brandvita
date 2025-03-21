@@ -965,6 +965,17 @@ h1 {
   h1 {
     font-style: normal;
     font-weight: 700 !important;
+    font-size: 40px !important;
+    line-height: 50px;
+    letter-spacing: -0.02em;
+  }
+}
+h1.hero-text {
+  font-size: 34px !important;
+  line-height: 39px;
+}
+@media screen and (min-width: 1024px) {
+  h1.hero-text {
     font-size: 65px !important;
     line-height: 70px;
     letter-spacing: -0.02em;
@@ -994,8 +1005,8 @@ h2 {
 @media screen and (min-width: 1024px) {
   h2 {
     font-weight: 700 !important;
-    font-size: 55px !important;
-    line-height: 65px;
+    font-size: 40px !important;
+    line-height: 50px;
   }
 }
 
@@ -1007,8 +1018,8 @@ h3 {
 }
 @media screen and (min-width: 1024px) {
   h3 {
-    font-size: 36px !important;
-    line-height: 45px;
+    font-size: 30px !important;
+    line-height: 36px;
   }
 }
 h3.custom-heading {
@@ -2079,12 +2090,11 @@ ol li {
   justify-content: center;
   align-items: center;
   font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 16px;
   line-height: 24px;
-  letter-spacing: 1px;
   color: #fff;
-  padding: 4px 30px 4px 40px;
+  padding: 10px 30px 10px 40px;
   background: #FD2E35;
   border-radius: 50px;
 }
@@ -2126,17 +2136,17 @@ ol li {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 22px;
   text-align: center;
   color: #000000;
-  padding: 4px 12px;
+  padding: 4px 5px 4px 15px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 50px;
   transition: 0.3s ease;
 }
 @media screen and (min-width: 1024px) {
   .icon-btn {
-    padding: 9px 25px 10px 30px;
+    padding: 4px 20px 4px 25px;
   }
 }
 .icon-btn:hover {
@@ -2145,6 +2155,15 @@ ol li {
 }
 .icon-btn:hover img {
   filter: invert(0) !important;
+}
+.icon-btn img {
+  margin-left: 10px;
+  height: 24px;
+}
+@media screen and (min-width: 1024px) {
+  .icon-btn img {
+    height: unset;
+  }
 }
 .icon-btn img {
   margin-left: 10px;
@@ -2198,21 +2217,33 @@ ol li {
 .load-more-btn {
   font-style: normal;
   font-weight: 700;
-  font-size: 21.92px;
-  line-height: 29px;
+  font-size: 16px;
+  line-height: 22px;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 1.21778px;
   color: #FD2E35;
-  padding: 12px 50px;
+  padding: 2px 5px 5px 15px;
   background: #FFFFFF;
   border: 1.21778px solid #FD2E35;
   border-radius: 60.8889px;
 }
+@media screen and (min-width: 1024px) {
+  .load-more-btn {
+    padding: 4px 15px 4px 25px;
+  }
+}
 .load-more-btn img {
-  margin: 0 0 0 12px;
+  margin: 0;
+  height: 24px;
   transform: rotate(90deg);
+}
+@media screen and (min-width: 1024px) {
+  .load-more-btn img {
+    margin: 0 0 0 8px;
+    height: unset;
+  }
 }
 
 .white-hover-btn:hover img {
@@ -2224,13 +2255,13 @@ ol li {
   flex-direction: column;
   position: absolute;
   width: 100%;
-  top: 80px;
+  top: 72px;
   justify-content: flex-start;
   align-items: flex-start;
   background-color: #fff;
   left: 0;
   gap: 10px;
-  padding: 0 20px 20px;
+  padding: 20px;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.5s ease, visibility 0.5s ease;
@@ -2290,6 +2321,7 @@ ol li {
 }
 .nav li a.secondary-btn {
   font-weight: 700;
+  line-height: 22px;
 }
 .nav li a.secondary-btn::before {
   display: none;
@@ -2321,8 +2353,6 @@ footer .nav li {
 footer .nav li a {
   font-style: normal;
   font-weight: 400 !important;
-  font-size: 18px !important;
-  line-height: 26px;
   color: #fff;
 }
 
@@ -2373,7 +2403,7 @@ label {
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #727272;
+  color: #000;
   margin-bottom: 6px;
 }
 
@@ -2449,6 +2479,7 @@ label {
 }
 .strategies-cards .card .shape-3, .strategies-cards .card .shape-4, .strategies-cards .card .shape-5 {
   position: absolute;
+  display: none;
 }
 .strategies-cards .card .shape-3 {
   top: 61.5px;
@@ -2506,7 +2537,7 @@ label {
   right: 0;
   width: 80dvw;
   height: 100%;
-  background: url("https://cdn.glitch.global/33ca5bfe-d1bf-448f-bdb2-2df5f485918c/nova-craft-ales-v1.png?v=1741515664105") no-repeat top right;
+  background: url("https://cdn.glitch.global/33ca5bfe-d1bf-448f-bdb2-2df5f485918c/nova-craft-ales-v2.png?v=1741542021855") no-repeat top right;
   background-size: cover;
   transform: scale(0.8);
   transform-origin: bottom right;
@@ -2659,7 +2690,7 @@ label {
   font-weight: 700 !important;
   font-size: 18px !important;
   line-height: 24px;
-  color: #28264D;
+  color: #000;
   margin-bottom: 20px;
 }
 .testimonial-card .testimonial-copy {
@@ -2667,7 +2698,7 @@ label {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #69778C;
+  color: #000;
   margin-bottom: 20px;
 }
 .testimonial-card .author-name {
@@ -2682,7 +2713,7 @@ label {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #69778C;
+  color: #000;
 }
 
 .owl-carousel {
@@ -2766,11 +2797,15 @@ label {
   flex-direction: column;
   align-items: center;
   flex: 1;
-  padding: 60px 50px;
+  padding: 30px 50px;
   gap: 30px;
-  background: rgba(255, 255, 255, 0.92);
+  background: #F7F4F2;
   backdrop-filter: blur(22px);
-  border-radius: 8px;
+  border-radius: 30px;
+}
+.contact-us-card .sm-custom-heading {
+  font-size: 22px !important;
+  line-height: 28px;
 }
 
 .work-card {
@@ -2789,10 +2824,11 @@ label {
 .work-card img {
   display: block;
   margin-bottom: 10px;
+  border-radius: 30px;
 }
 @media screen and (min-width: 1024px) {
   .work-card img {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 
@@ -2866,19 +2902,19 @@ footer .nav li {
   justify-content: space-between;
   align-items: center;
   gap: 80px;
-  padding: 78px 0 55px 0;
+  padding: 55px 0 55px 0;
 }
 @media screen and (min-width: 1024px) {
   .foot-heading-info {
     justify-content: space-between;
-    padding: 67px 125px 75px 0;
+    padding: 42px 125px 0 0;
   }
 }
 
 .foot-copy-block {
   display: flex;
   flex-direction: column;
-  margin-top: 44px;
+  margin-top: 28px;
   padding: 20px 0 36px;
   border-top: 1px solid #69778C;
 }
@@ -2887,7 +2923,7 @@ footer .nav li {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 42px 0;
+    padding: 24px 0;
   }
 }
 .foot-copy-block .copy-text {
@@ -2983,8 +3019,8 @@ body {
 @media screen and (min-width: 1024px) {
   .score-block .score-item strong {
     font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 30px;
+    line-height: 34px;
   }
 }
 .score-block .score-item span {
@@ -3083,7 +3119,7 @@ body {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 80%;
+  height: 100%;
   background: url("https://cdn.glitch.global/33ca5bfe-d1bf-448f-bdb2-2df5f485918c/about-us-bg-v1.png?v=1733506178133") no-repeat center top;
   background-size: cover;
 }
@@ -3161,7 +3197,7 @@ body {
 }
 
 .work-hero-banner::before {
-  background-color: #000000;
+  background-color: transparent;
   background-image: url("https://cdn.glitch.global/33ca5bfe-d1bf-448f-bdb2-2df5f485918c/work-bg.png?v=1733926134081");
   background-repeat: no-repeat;
   background-position: center top;
@@ -3170,7 +3206,7 @@ body {
 }
 @media screen and (min-width: 1024px) {
   .work-hero-banner {
-    background-color: #000000;
+    background-color: transparent;
     background-image: url("https://cdn.glitch.global/33ca5bfe-d1bf-448f-bdb2-2df5f485918c/work-bg.png?v=1733926134081");
     background-repeat: no-repeat;
     background-position: center top;

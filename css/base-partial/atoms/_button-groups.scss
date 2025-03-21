@@ -3,12 +3,12 @@
   justify-content: center;
   align-items: center;
   font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 16px;
   line-height: 24px;
-  letter-spacing: 1px;
+  // letter-spacing: 1px;
   color: $white-text;
-  padding: 5px 30px 5px 40px;
+  padding: 10px 30px 10px 40px;
   background: $action-text;
   border-radius: 50px;
   &.block-btn{
@@ -51,7 +51,7 @@
   line-height: 22px;
   text-align: center;
   color: $defaultColor;
-  padding: 4px 12px;
+  padding: 4px 5px 4px 15px;
   border: 1px solid rgba( 255, 255, 255, .5);
   border-radius: 50px;
   transition: .3s ease;
@@ -67,6 +67,10 @@
   }
   img{
     margin-left: 10px; 
+    height: 24px;
+    @media screen and (min-width: 1024px) {
+      height: unset;
+    }
   }
   &.secondary-icon-btn{
     border: 1px solid rgba(0, 0, 0, 0.5);
@@ -121,7 +125,7 @@
     text-align: center;
     letter-spacing: 1.21778px;
     color: #FD2E35;
-    padding: 4px 12px;
+    padding: 2px 5px 5px 15px;
     background: #FFFFFF;
     border: 1.21778px solid #FD2E35;
     border-radius: 60.8889px;
@@ -129,8 +133,13 @@
       padding: 4px 15px 4px 25px;
     }
     img{
-      margin: 0 0 0 8px;
+      margin: 0;
+      height: 24px;
       transform: rotate(90deg);
+      @media screen and (min-width: 1024px) {
+        margin: 0 0 0 8px;
+        height: unset;
+      }
     }
   }
   .white-hover-btn{
