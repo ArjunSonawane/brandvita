@@ -965,9 +965,19 @@ h1 {
   h1 {
     font-style: normal;
     font-weight: 700 !important;
+    font-size: 40px !important;
+    line-height: 50px;
+    letter-spacing: -0.02em;
+  }
+}
+h1.hero-text {
+  font-size: 34px !important;
+  line-height: 39px;
+}
+@media screen and (min-width: 1024px) {
+  h1.hero-text {
     font-size: 65px !important;
     line-height: 70px;
-    letter-spacing: -0.02em;
   }
 }
 h1.custom-font {
@@ -994,8 +1004,8 @@ h2 {
 @media screen and (min-width: 1024px) {
   h2 {
     font-weight: 700 !important;
-    font-size: 55px !important;
-    line-height: 65px;
+    font-size: 40px !important;
+    line-height: 50px;
   }
 }
 
@@ -2126,7 +2136,7 @@ ol li {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 22px;
   text-align: center;
   color: #000000;
   padding: 4px 12px;
@@ -2136,7 +2146,7 @@ ol li {
 }
 @media screen and (min-width: 1024px) {
   .icon-btn {
-    padding: 9px 25px 10px 30px;
+    padding: 4px 20px 4px 25px;
   }
 }
 .icon-btn:hover {
@@ -2290,6 +2300,7 @@ ol li {
 }
 .nav li a.secondary-btn {
   font-weight: 700;
+  line-height: 22px;
 }
 .nav li a.secondary-btn::before {
   display: none;
@@ -2321,8 +2332,6 @@ footer .nav li {
 footer .nav li a {
   font-style: normal;
   font-weight: 400 !important;
-  font-size: 18px !important;
-  line-height: 26px;
   color: #fff;
 }
 
@@ -2871,14 +2880,14 @@ footer .nav li {
 @media screen and (min-width: 1024px) {
   .foot-heading-info {
     justify-content: space-between;
-    padding: 67px 125px 75px 0;
+    padding: 42px 125px 42px 0;
   }
 }
 
 .foot-copy-block {
   display: flex;
   flex-direction: column;
-  margin-top: 44px;
+  margin-top: 28px;
   padding: 20px 0 36px;
   border-top: 1px solid #69778C;
 }
@@ -2887,7 +2896,7 @@ footer .nav li {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 42px 0;
+    padding: 24px 0;
   }
 }
 .foot-copy-block .copy-text {

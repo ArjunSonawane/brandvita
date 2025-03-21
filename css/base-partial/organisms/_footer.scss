@@ -28,20 +28,20 @@ footer{
     padding: 78px 0 55px 0;
     @media screen and (min-width: 1024px) {
         justify-content: space-between;
-        padding: 67px 125px 75px 0;
+        padding: 42px 125px 42px 0;
     }
 }
 .foot-copy-block{
     display: flex;
     flex-direction: column;
-    margin-top: 44px;
+    margin-top: 28px;
     padding: 20px 0 36px;
     border-top: 1px solid #69778C;
     @media screen and (min-width: 1024px) {
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
-        padding: 42px 0;
+        padding: 24px 0;
     }
     .copy-text{
         font-style: normal;
