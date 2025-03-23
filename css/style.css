@@ -1074,7 +1074,7 @@ p {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 24px;
   color: rgba(0, 0, 0, 0.75);
 }
 @media screen and (min-width: 1024px) {
@@ -2262,12 +2262,6 @@ ol li {
   visibility: hidden;
   transition: opacity 0.5s ease, visibility 0.5s ease;
 }
-.nav.open {
-  opacity: 1;
-  visibility: visible;
-  display: flex;
-  height: auto;
-}
 @media screen and (min-width: 1024px) {
   .nav {
     display: flex;
@@ -2295,8 +2289,8 @@ ol li {
 .nav li a {
   display: inline-flex;
   position: relative;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 22px;
   line-height: 26px;
   color: #323232;
   overflow: hidden;
@@ -2325,6 +2319,29 @@ ol li {
 .nav li a.secondary-btn:focus {
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
+@media screen and (min-width: 1024px) {
+  .nav li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+.nav.open {
+  opacity: 1;
+  visibility: visible;
+  display: flex;
+  height: auto;
+}
+.nav.open:before {
+  content: "";
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 
 footer .nav {
   align-items: flex-start;
@@ -2348,8 +2365,17 @@ footer .nav li {
 }
 footer .nav li a {
   font-style: normal;
-  font-weight: 400 !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
   color: #fff;
+}
+@media screen and (min-width: 1024px) {
+  footer .nav li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
 
 .home-page .nav li {
@@ -3038,7 +3064,6 @@ body {
   margin: 0 auto;
 }
 .video-wrapper img {
-  display: block;
   border-radius: 40px;
 }
 
